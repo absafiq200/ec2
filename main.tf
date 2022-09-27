@@ -1,4 +1,4 @@
-module "my_ec2" {
+module "my_ec2_main" {
   source         = "./modules/ec2"
   key_pair       = var.my_key_pair
   pub_ip_address = var.my_pub_ip_address
