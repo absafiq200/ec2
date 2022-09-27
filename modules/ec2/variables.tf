@@ -19,17 +19,14 @@ variable "key_pair" {
 variable "pub_ip_address" {
   type        = string
   description = "assign public IP"
-  default     = "true"
 }
 
 variable "subnet_id" {
   type        = string
   description = "subnet ID"
-  default     = "subnet-09ce00a66c55b2811"
 }
 
 variable "sec_group" {
   type        = string
   description = "subnet ID"
-  default     = "sg-010df88aa4314df67"
 }
